@@ -1,16 +1,101 @@
-# Zhongjie_Ruan_CSCI_2270_Final_Project
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+</p>
 
-modification for step 19 
-Name: Zhongjie Ruan Partner
+<h3 align="center">Project Title</h3>
 
-I am going to design an application that helps user to find the best travel destination based on their landscape preference, and help the user to calculate the shortest path based on distance and based on least states they will pass to arrive the destination country. 
+<div align="center">
 
-Three data structures that I will use are the graph, queue, and link list. I will use the graph to map the whole application; different states are independent vertex inside the map; adjacent states are connected with vertex by a weighted edge. The weight in my program represents the distance between two countries. Each vertex is associated with a singly link list, which includes the landscape information, temperature information, population information, and local food information. I will implement a queue to use it for breath first search.
+  [![Status](https://img.shields.io/badge/status-active-success.svg)]() 
+  [![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
+  [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
+  [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
-I will first give the user some options of landscapes and ask them which type of landscape they are looking for and give them some suggestions about which state should they go; the information of that state will also be listed by traversing the link list. After user deciding which state they want to go, I will ask their local address and their preference of the trip. If the user wants to pass as fewer states as possible, I will use depth first search to find the route that fits their choice. If the user wants to go to the destination with the shortest distance, I will use Dijkstra to find the route with the shortest distance, which may pass a lot of states. After depth first search and Dijkstra, I will also create a reverse link list function to reverse the link list and print out the path from the start city to end city because the node that returned from DFS and Dijkstra is the end node;
+</div>
 
-Update:
-Instead of implementing queue I used deque library to access queue directly. I also have functions to create trees contain attraction information and connect each tree with the vertex. Basically, there are two data structures are connected with the vertex, link list, and BST.
+---
 
-Update:
-Create Hashtable class and use it as a template to store vertices
+<p align="center"> Few lines describing your project.
+    <br> 
+</p>
+
+## 📝 Table of Contents
+- [About](#about)
+- [Getting Started](#getting_started)
+- [Deployment](#deployment)
+- [Usage](#usage)
+- [Built Using](#built_using)
+- [TODO](../TODO.md)
+- [Contributing](../CONTRIBUTING.md)
+- [Authors](#authors)
+- [Acknowledgments](#acknowledgement)
+
+## 🧐 About <a name = "about"></a>
+Write about 1-2 paragraphs describing the purpose of your project.
+
+## 🏁 Getting Started <a name = "getting_started"></a>
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+
+### Prerequisites
+What things you need to install the software and how to install them.
+
+```
+Give examples
+```
+
+### Installing
+A step by step series of examples that tell you how to get a development env running.
+
+Say what the step will be
+
+```
+Give the example
+```
+
+And repeat
+
+```
+until finished
+```
+
+End with an example of getting some data out of the system or using it for a little demo.
+
+## 🔧 Running the tests <a name = "tests"></a>
+Explain how to run the automated tests for this system.
+
+### Break down into end to end tests
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+### And coding style tests
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+## 🎈 Usage <a name="usage"></a>
+Add notes about how to use the system.
+
+## 🚀 Deployment <a name = "deployment"></a>
+Add additional notes about how to deploy this on a live system.
+
+## ⛏️ Built Using <a name = "built_using"></a>
+- [MongoDB](https://www.mongodb.com/) - Database
+- [Express](https://expressjs.com/) - Server Framework
+- [VueJs](https://vuejs.org/) - Web Framework
+- [NodeJs](https://nodejs.org/en/) - Server Environment
+
+## ✍️ Authors <a name = "authors"></a>
+- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
+
+See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
+
+## 🎉 Acknowledgements <a name = "acknowledgement"></a>
+- Hat tip to anyone whose code was used
+- Inspiration
+- References
