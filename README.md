@@ -29,10 +29,6 @@ These instructions will get you a copy of the project up and running on your loc
 
 
 ## ⛏️ Built Using <a name = "built_using"></a>
-- [C++](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-
-## ⛏️ Built Using <a name = "built_using"></a>
 - [CLion] - IDE
 
 ## ✍️ Authors <a name = "authors"></a>
