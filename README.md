@@ -27,11 +27,6 @@ These instructions will get you a copy of the project up and running on your loc
 ## 🔧 How to run the program(Demo) <a name = "tests"></a>
 ![image](https://raw.githubusercontent.com/chenhunluo321/Traverler-s-Guide/master/howto.png)
 
-## 🎈 Usage <a name="usage"></a>
-Add notes about how to use the system.
-
-## 🚀 Deployment <a name = "deployment"></a>
-Add additional notes about how to deploy this on a live system.
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 - [C++](https://www.mongodb.com/) - Database
