@@ -17,7 +17,8 @@
 
 
 ## 🧐 About <a name = "about"></a>
-Write about 1-2 paragraphs describing the purpose of your project.
+
+This is a C++ application that helps user to find the best travel destination based on their landscape preference, and help the user to calculate the shortest path based on distance and based on least states they will pass to arrive the destination country. 
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
@@ -28,7 +29,7 @@ What things you need to install the software and how to install them.
 ```
 Give examples
 ```
-
+![image](https://raw.githubusercontent.com/chenhunluo321/Traverler-s-Guide/master/howto.png)
 ### Installing
 A step by step series of examples that tell you how to get a development env running.
 
